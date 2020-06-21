@@ -16,11 +16,7 @@
   img {
     box-shadow: 0 8px 6px -6px $black;
     border-radius: 5px 20px 5px;
-    &:hover {
-      transition: border-top 0.1s ease-in-out 0s;
-      /* transition: <transition-property> <duration> <delay> */
-      border-top: 5px solid $lightgrey;
-    }
+    border-top: 5px solid $darkgrey;
   }
 
   @include flexy($dir: column, $falign: center, $aitems: center);
