@@ -1,0 +1,21 @@
+// Base styles
+* {
+  box-sizing: border-box;
+}
+
+body {
+  @include flexy($dir: column);
+  font-family: "Fira Sans", sans-serif;
+  min-height: 100vh;
+}
+
+.wrapper {
+  flex: 1;
+  @media #{$break-s} {
+    @include centerLayout();
+  }
+
+  @media #{$break-l} {
+    max-width: 1200px;
+  }
+}

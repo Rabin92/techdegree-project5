@@ -1,0 +1,39 @@
+/* ********************************* CONTENT ******************************** */
+
+.gallery {
+  @include flexy($dir: column, $falign: center, $aitems: center);
+  @media #{$break-s} {
+    @include flexy($dsp: null, $wrap: wrap, $dir: row);
+  }
+  margin: 50px 0;
+}
+
+.row {
+  a {
+    padding: 20px;
+  }
+
+  img {
+    box-shadow: 0 8px 6px -6px $black;
+    border-radius: 5px 20px 5px;
+    &:hover {
+      transition: border-top 0.1s ease-in-out 0s;
+      /* transition: <transition-property> <duration> <delay> */
+      border-top: 5px solid $lightgrey;
+    }
+  }
+
+  @include flexy($dir: column, $falign: center, $aitems: center);
+
+  @media #{$break-s} {
+    @include flexy($dsp: null, $fbasis: 50%);
+  }
+
+  @media #{$break-m} {
+    @include flexy($dsp: null, $fbasis: 33.333%);
+  }
+
+  @media #{$break-l} {
+    @include flexy($dsp: null, $fbasis: 25%);
+  }
+}

@@ -1,0 +1,23 @@
+/* ********************************* FOOTER ********************************* */
+hr {
+  padding: 3px;
+  border-radius: 3px;
+  background-color: $bk-color;
+}
+
+footer {
+  padding: 20px;
+  text-align: $center;
+}
+
+footer .social {
+  width: 30px;
+  height: 30px;
+  opacity: 0.5;
+  margin-bottom: 10px;
+  &:hover {
+    transition: opacity 1s 0s, transform 1s 0s;
+    opacity: 1;
+    transform: scale(1.1);
+  }
+}

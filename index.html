@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Google Fonts -->
+
+    <link rel="stylesheet" href="lightbox/css/lightbox.min.css" />
+    <link rel="stylesheet" href="lightbox/css/lightbox.css" />
+    <!-- Lightbox plugin -->
+
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <!-- External Stylesheet -->
+    <title>Interactive | Photo Gallery</title>
+  </head>
+  <body>
+    <header>
+      <img src="photos/logo.png" alt="logo" class="logo" />
+
+      <div class="searchBox">
+        <input type="text" placeholder="Search..." id="search" />
+      </div>
+    </header>
+    <!-- div: header -->
+
+    <div class="wrapper">
+      <main class="gallery">
+        <div class="row">
+          <a
+            href="photos/01.jpg"
+            title="Hay Bales"
+            data-lightbox="image"
+            data-title="I love hay bales. Took this snap on a drive through the countryside past some straw fields."
+            class="photo"
+          >
+            <img src="photos/thumbnails/01.jpg" alt="Hay Bales" />
+          </a>
+        </div>
+        <!-- Image-1 -->
+
+        <div class="row">
+          <a
+            href="photos/02.jpg"
+            title="Lake"
+            data-lightbox="image"
+            data-title="The lake was so calm today. We had a great view of the snow on the mountains from here."
+            class="photo"
+          >
+            <img src="photos/thumbnails/02.jpg" alt="Lake" />
+          </a>
+        </div>
+        <!-- Image-2 -->
+
+        <div class="row">
+          <a
+            href="photos/03.jpg"
+            title="Canyon"
+            data-lightbox="image"
+            data-title="I hiked to the top of the mountain and got this picture of the canyon and trees below."
+            class="photo"
+          >
+            <img src="photos/thumbnails/03.jpg" alt="Canyon" />
+          </a>
+        </div>
+        <!-- Image-3 -->
+
+        <div class="row">
+          <a
+            href="photos/04.jpg"
+            title="Iceberg"
+            data-lightbox="image"
+            data-title="It was amazing to see an iceberg up close, it was so cold but didn’t snow today."
+            class="photo"
+          >
+            <img src="photos/thumbnails/04.jpg" alt="Iceberg" />
+          </a>
+        </div>
+        <!-- Image-4 -->
+
+        <div class="row">
+          <a
+            href="photos/05.jpg"
+            title="Desert"
+            data-lightbox="image"
+            data-title="The red cliffs were beautiful. It was really hot in the desert but we did a lot of walking through the canyons."
+            class="photo"
+          >
+            <img src="photos/thumbnails/05.jpg" alt="Desert" />
+          </a>
+        </div>
+        <!-- Image-5 -->
+
+        <div class="row">
+          <a
+            href="photos/06.jpg"
+            title="Fall"
+            data-lightbox="image"
+            data-title="Fall is coming, I love when the leaves on the trees start to change color."
+            class="photo"
+          >
+            <img src="photos/thumbnails/06.jpg" alt="Fall" />
+          </a>
+        </div>
+        <!-- Image-6 -->
+
+        <div class="row">
+          <a
+            href="photos/07.jpg"
+            title="Plantation"
+            data-lightbox="image"
+            data-title="I drove past this plantation yesterday, everything is so green!"
+            class="photo"
+          >
+            <img src="photos/thumbnails/07.jpg" alt="Plantation" />
+          </a>
+        </div>
+        <!-- Image-7 -->
+
+        <div class="row">
+          <a
+            href="photos/08.jpg"
+            title="Dunes"
+            data-lightbox="image"
+            data-title="My summer vacation to the Oregon Coast. I love the sandy dunes!"
+            class="photo"
+          >
+            <img src="photos/thumbnails/08.jpg" alt="Dunes" />
+          </a>
+        </div>
+        <!-- Image-8 -->
+
+        <div class="row">
+          <a
+            href="photos/09.jpg"
+            title="Countryside Lane"
+            data-lightbox="image"
+            data-title="We enjoyed a quiet stroll down this countryside lane."
+            class="photo"
+          >
+            <img src="photos/thumbnails/09.jpg" alt="Countryside Lane" />
+          </a>
+        </div>
+        <!-- Image-9 -->
+
+        <div class="row">
+          <a
+            href="photos/10.jpg"
+            title="Sunset"
+            data-lightbox="image"
+            data-title="Sunset at the coast! The sky turned a lovely shade of orange."
+            class="photo"
+          >
+            <img src="photos/thumbnails/10.jpg" alt="Sunset" />
+          </a>
+        </div>
+        <!-- Image-10 -->
+
+        <div class="row">
+          <a
+            href="photos/11.jpg"
+            title="Cave"
+            data-lightbox="image"
+            data-title="I did a tour of a cave today and the view of the landscape below was breathtaking."
+            class="photo"
+          >
+            <img src="photos/thumbnails/11.jpg" alt="Cave" />
+          </a>
+        </div>
+        <!-- Image- 11 -->
+
+        <div class="row">
+          <a
+            href="photos/12.jpg"
+            title="Bluebells"
+            data-lightbox="image"
+            data-title="I walked through this meadow of bluebells and got a good view of the snow on the mountain before the fog came in."
+            class="photo"
+          >
+            <img src="photos/thumbnails/12.jpg" alt="Bluebells" />
+          </a>
+        </div>
+        <!-- Image-12 -->
+      </main>
+      <hr />
+    </div>
+    <!-- div: wrapper -->
+    <footer>
+      <a href="https://github.com/Rabin92" target="_blank"
+        ><img src="photos/icon.svg" alt="github" class="social"
+      /></a>
+      <p>&copy;<em>Copyright 2020, Rabin Gharti Magar</em></p>
+    </footer>
+    <!-- jQuery -->
+    <script src="lightbox/js/jquery-3.5.0.min.js"></script>
+    <script src="lightbox/js/lightbox.js"></script>
+    <script src="lightbox/js/script.js"></script>
+  </body>
+</html>

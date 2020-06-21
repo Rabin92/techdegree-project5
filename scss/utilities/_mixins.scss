@@ -1,0 +1,21 @@
+@mixin flexy(
+  $dsp: flex,
+  $dir: null,
+  $falign: null,
+  $fbasis: null,
+  $wrap: null,
+  $aitems: null
+) {
+  display: $dsp;
+  flex-direction: $dir;
+  justify-content: $falign;
+  flex-basis: $fbasis;
+  flex-wrap: $wrap;
+  align-items: $aitems;
+}
+
+// Center
+@mixin centerLayout() {
+  width: 90%;
+  margin: 0 auto;
+}
