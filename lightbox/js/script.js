@@ -6,7 +6,6 @@ lightbox.option({
 });
 
 // Search Function
-
 $(document).ready(function () {
   // Setting title attribute of <a> tag
   $(".photo").attr("title", "Click here to enlarge");
