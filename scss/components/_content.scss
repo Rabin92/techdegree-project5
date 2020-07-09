@@ -14,9 +14,7 @@
   }
 
   img {
-    box-shadow: 0 8px 6px -6px $black;
-    border-radius: 5px 20px 5px;
-    border-top: 5px solid $darkgrey;
+    border: 1px solid grey;
   }
 
   @include flexy($dir: column, $falign: center, $aitems: center);
