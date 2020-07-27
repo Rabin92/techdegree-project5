@@ -459,7 +459,9 @@ input[type=text]::placeholder {
   padding: 20px;
 }
 .row img {
-  border: 1px solid grey;
+  border: 1.2px solid #cccc;
+  padding: 8px;
+  background: rgba(255, 255, 255, 0.8);
 }
 @media (min-width: 400px) {
   .row {
