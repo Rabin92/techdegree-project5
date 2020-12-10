@@ -1,17 +1,8 @@
-@mixin flexy(
-  $dsp: flex,
-  $dir: null,
-  $falign: null,
-  $fbasis: null,
-  $wrap: null,
-  $aitems: null
-) {
+@mixin flexy($dsp: flex, $dir: null, $falign: null, $wrap: null) {
   display: $dsp;
   flex-direction: $dir;
   justify-content: $falign;
-  flex-basis: $fbasis;
   flex-wrap: $wrap;
-  align-items: $aitems;
 }
 
 // Center
