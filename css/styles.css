@@ -393,7 +393,7 @@ body {
 /* ********************************* HEADER ********************************* */
 header {
   text-align: center;
-  background-image: url(../photos/wallpaper.jpg);
+  background-image: url(../gallery/wallpaper.jpg);
   background-size: cover;
   border-bottom: 1px solid #fff;
   box-shadow: 0 8px 80px -6px black;
@@ -429,47 +429,28 @@ input[type=text]::placeholder {
 
 /* ********************************* CONTENT ******************************** */
 .gallery {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   margin: 50px 0;
 }
-@media (min-width: 400px) {
-  .gallery {
-    flex-direction: row;
-    flex-wrap: wrap;
-  }
-}
 
-.row {
+.flex-container {
   display: flex;
-  flex-direction: column;
   justify-content: center;
-  align-items: center;
+  flex-wrap: wrap;
 }
-.row a {
+.flex-container a {
   padding: 20px;
 }
-.row img {
+.flex-container img {
   border: 1.2px solid #cccc;
   padding: 8px;
   background: rgba(255, 255, 255, 0.8);
 }
-@media (min-width: 400px) {
-  .row {
-    flex-basis: 50%;
-  }
-}
-@media (min-width: 769px) {
-  .row {
-    flex-basis: 33.333%;
-  }
-}
-@media (min-width: 1024px) {
-  .row {
-    flex-basis: 25%;
-  }
+
+figure {
+  font-size: 23px;
+  line-height: 2;
+  letter-spacing: 0.089em;
+  font-weight: 600;
 }
 
 footer {
