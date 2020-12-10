@@ -1,7 +1,7 @@
 // Plugin settings
 baguetteBox.run('.flex-container', {
   animation: 'fadeIn',
-  // fullScreen: true,
+  fullScreen: true,
   buttons: true,
 });
 
