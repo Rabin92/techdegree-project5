@@ -26,3 +26,11 @@ $(document).ready(function () {
     }
   });
 });
+
+// Date Object
+
+const date = new Date();
+const fullYear = date.getFullYear();
+
+const setYear = document.querySelector('.setYear');
+setYear.innerHTML = fullYear;
