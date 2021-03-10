@@ -413,6 +413,7 @@ input[type=text] {
   border-radius: 5px;
   width: 50%;
   border: none;
+  outline: none;
 }
 input[type=text]:focus {
   transition: border 0.3s 0s;
